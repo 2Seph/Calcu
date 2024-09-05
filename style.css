@@ -1,0 +1,86 @@
+body {
+    background: #F6F6F6;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 30px;
+    width: 300px;
+    height: 400px;
+    background: white;
+    box-shadow: 10px 10px 20px #E5E5E5;
+  }
+  
+  .displayC {
+    width: 100%;
+    height: 30%;
+    background: #F8F8F8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  input {
+    text-align: right;
+    background: none;
+    border:none;
+    width: 100%;
+    font-size: 30px;
+  }
+  
+  
+  .multiply, .add, .equal, .minus, .divide {
+    color:white;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+  }
+  .divide {
+    background: #D058E8;
+    box-shadow: 0px 3px 3px #EDBEF6;
+  }
+  .multiply {
+    background: #F47474;
+    box-shadow: 0px 3px 3px #FCC6C6;
+  }
+  .minus {
+    background: #7BB4F7;
+    box-shadow: 0px 3px 3px #C2DDFB;
+  }
+  .add {
+    background: #F58E23;
+    box-shadow: 0px 3px 3px #FBCE99;
+  }
+  .equal {
+    background: #25CB83;
+    box-shadow: 0px 3px 3px #8FE3C0;
+  }
+  
+  button {
+    font-size: 16px;
+    background: none;
+    border:none;
+    color: black;
+    padding: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  button:hover {
+    transform: scale(1.2)
+  }
+  
+  .row1, .row2, .row3, .row4, .row5 {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 30px;
+  }
+  
+  
